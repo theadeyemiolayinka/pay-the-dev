@@ -1,0 +1,31 @@
+{
+    "name": "theadeyemiolayinka/pay-the-dev",
+    "description": "A laravel package to remind the owners of a website the importance of paying developers.",
+    "type": "library",
+    "homepage": "https://github.com/theadeyemiolayinka/pay-the-dev",
+    "support": {
+        "issues": "https://github.com/theadeyemiolayinka/pay-the-dev",
+        "source": "https://github.com/theadeyemiolayinka/pay-the-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "TheAdeyemiOlayinka\\PayTheDev\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Olayinka Adeyemi",
+            "email": "olayinkaapps@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TheAdeyemiOlayinka\\PayTheDev\\PayTheDevServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
